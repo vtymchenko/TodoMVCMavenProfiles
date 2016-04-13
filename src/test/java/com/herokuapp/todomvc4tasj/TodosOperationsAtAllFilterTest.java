@@ -1,4 +1,4 @@
-package com.herokuapp.todomvc4tasj.features;
+package com.herokuapp.todomvc4tasj;
 
 import com.herokuapp.todomvc4tasj.categories.Buggy;
 import org.junit.Test;

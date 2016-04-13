@@ -1,4 +1,4 @@
-package com.herokuapp.todomvc4tasj.features;
+package com.herokuapp.todomvc4tasj;
 
 import com.codeborne.selenide.Configuration;
 
