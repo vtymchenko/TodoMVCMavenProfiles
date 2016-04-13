@@ -14,7 +14,6 @@
 
     <properties>
         <driver.browser>firefox</driver.browser>
-        <suite>SmokeSuiteTest</suite>
         <test.includeCategories></test.includeCategories>
         <allure.version>1.4.11</allure.version>
         <aspectj.version>1.8.5</aspectj.version>
@@ -58,7 +57,8 @@
                     <groups>${test.includeCategories}</groups>
                     <excludedGroups>${test.excludeCategories}</excludedGroups>
                     <systemPropertyVariables>
-                        <webdriver.chrome.driver>C://Users//Valentyn//workspace//chromedriver.exe</webdriver.chrome.driver>
+                        <webdriver.chrome.driver>C://Users//Valentyn//workspace//chromedriver.exe
+                        </webdriver.chrome.driver>
                         <driver.browser>${driver.browser}</driver.browser>
                     </systemPropertyVariables>
 
