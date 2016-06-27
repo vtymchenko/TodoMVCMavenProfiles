@@ -21,6 +21,7 @@ public class TodoMVC {
 
     static ElementsCollection tasks = $$("#todo-list>li");
 
+    
     public static void givenAtAll(Task... tasks) {
         givenAtFilter(Filter.ALL, tasks);
     }
